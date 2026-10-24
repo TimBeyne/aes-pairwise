@@ -1,0 +1,11 @@
+name = "PairwiseIndependence"
+version = "0.1.0"
+defaultTargets = ["PairwiseIndependence"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "cbba23a95d23d36cd5c6fe5377535aa2636f4d23"
+
+[[lean_lib]]
+name = "PairwiseIndependence"
